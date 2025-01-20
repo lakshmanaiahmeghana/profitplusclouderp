@@ -22,33 +22,35 @@ function WhyUsContainer() {
   }
 
   return (
-    <div className="WhyUs p-0 p-lg-5" id="whyUs">
-      <h2 className="WhyUsHeader text-center pt-5 pt-lg-0">Why PROFILTPLUS Cloud ERP?</h2>
-      <div id="whyUsCarousel" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-          {chunkedCards.map((chunk, index) => (
-            <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
-              <div className="row">
-                {chunk.map((card, i) => (
-                  <div className="col-12 col-md-4 p-2" key={i}>
-                    <div className="WhyUsCard">
-                      <h3>{card.title}</h3>
-                      <p class="pt-2">{card.description}</p>
+    <div className="container">
+      <div className="WhyUs p-0 p-lg-5" id="whyUs">
+        <h2 className="WhyUsHeader text-center pt-5 pt-lg-0">Why PROFILTPLUS Cloud ERP?</h2>
+        <div id="whyUsCarousel" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-inner">
+            {chunkedCards.map((chunk, index) => (
+              <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
+                <div className="row">
+                  {chunk.map((card, i) => (
+                    <div className="col-12 col-md-4 p-2" key={i}>
+                      <div className="WhyUsCard">
+                        <h3>{card.title}</h3>
+                        <p class="pt-2">{card.description}</p>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+          <button className="carousel-control-prev" type="button" data-bs-target="#whyUsCarousel" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#whyUsCarousel" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#whyUsCarousel" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#whyUsCarousel" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
   );
