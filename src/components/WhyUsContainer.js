@@ -30,7 +30,7 @@ function WhyUsContainer() {
             <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
               <div className="row">
                 {chunk.map((card, i) => (
-                  <div className="col-12 col-md-4" key={i}>
+                  <div className="col-12 col-md-4 p-2" key={i}>
                     <div className="WhyUsCard">
                       <h3>{card.title}</h3>
                       <p class="pt-2">{card.description}</p>
