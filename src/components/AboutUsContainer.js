@@ -25,7 +25,7 @@ function AboutUsContainer() {
                         50+ Partner</p></div></div>
                 </div>
 
-                <div class="py-5">
+                <div class="pt-5">
                 <div id="globalCarousel" className="carousel slide " data-bs-ride="carousel">
                     <p class="globalCarouselHeader text-center">Our Customer Around The World</p>
                     <div className="carousel-inner">
