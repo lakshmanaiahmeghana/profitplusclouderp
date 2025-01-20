@@ -7,7 +7,7 @@ function AboutUsContainer() {
         <h2 className="AboutUsHeader text-center pt-3 pt-lg-0">About Us</h2>
         <p className="AboutUsSubHeader text-center">PROFITPLUS — a solution designed by <a href="https://www.bluechipsolutions.in/" id="bluechipUrl">Bluechip Solutions.</a></p>
         <div class="row">
-            <div class="col-12 col-lg-6 p-0 p-lg-5">
+            <div class="col-12 col-lg-6 p-2 p-lg-5">
                 <div class="row">
                     <div class="col-12 col-lg-6"><div class="AboutUsCard">
                     <img class="AboutUsImg" src="/images/Image15.png" /><p class="AboutUsImgHeader">
@@ -71,7 +71,7 @@ function AboutUsContainer() {
                 </div>
 
             </div>
-            <div class="col-12 col-lg-6 p-0 p-lg-5">
+            <div class="col-12 col-lg-6 p-2 p-lg-5">
                 <h2 className="WhatWeDoHeader pt-3">
                     What We Do?
                 </h2>

@@ -572,3 +572,7 @@ header .linkStyle:hover {
 .footer-legal-link:hover {
   text-decoration: underline;
 }
+.footer h5{
+  font-weight: 700;
+  padding-top: 10px;
+}

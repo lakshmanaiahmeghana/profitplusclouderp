@@ -9,8 +9,8 @@ function ContactUsContainer() {
         Contact Us 
       </h2>
       <h5 className="ContactUsSubHeader">Access our Solution & Experience the Difference</h5>
-      <form class="mx-5 my-2 px-4">
-        <div className="row px-5">
+      <form class="mx-5 my-2 px-lg-4">
+        <div className="row px-lg-5">
           <div className="col-12 col-lg-6 form-group pt-4">
             <label htmlFor="fullName">
               Full Name <span className="required">*</span>
@@ -34,7 +34,7 @@ function ContactUsContainer() {
             />
           </div>
         </div>
-        <div className="row px-5">
+        <div className="row px-lg-5">
           <div className="col-12 col-lg-6 form-group pt-4">
             <label htmlFor="email">
               Work Email <span className="required">*</span>
@@ -55,7 +55,7 @@ function ContactUsContainer() {
             />
           </div>
         </div>
-        <div className="text-end mt-4 px-5">
+        <div className="text-lg-end text-center mt-4 px-5">
           <button type="submit" className="submit-btn">
             Submit
           </button>
